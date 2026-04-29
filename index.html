@@ -10,7 +10,7 @@
     background: #fff;
     color: #1a1a1a;
     padding: 24px;
-    max-width: 860px;
+    max-width: 900px;
     margin: 0 auto;
   }
   .cal { padding: 1rem 0; }
@@ -36,7 +36,8 @@
   .legend { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
   .li { display: flex; align-items: center; gap: 4px; font-size: 10px; color: #666; }
   .ld { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
-  .footer { font-size: 10px; color: #666; margin-top: 10px; padding: 6px 8px; border-radius: 6px; background: #f5f5f5; border-left: 2px solid #7F77DD; line-height: 1.5; }
+  .footer { font-size: 10px; color: #666; margin-top: 10px; padding: 8px 8px; border-radius: 6px; background: #f5f5f5; border-left: 2px solid #7F77DD; line-height: 1.5; }
+  .footer span { font-size: 8px; font-weight: 700; display: block; margin: 2px 0 4px;}
 </style>
 </head>
 <body>
@@ -44,7 +45,7 @@
   <div class="legend">
     <div class="li"><div class="ld" style="background:#F0997B"></div>Roma</div>
     <div class="li"><div class="ld" style="background:#EF9F27"></div>Florencia</div>
-    <div class="li"><div class="ld" style="background:#BA7517"></div>Bolonia</div>
+    <div class="li"><div class="ld" style="background:#fbebb6"></div>Bolonia</div>
     <div class="li"><div class="ld" style="background:#378ADD"></div>Budapest</div>
     <div class="li"><div class="ld" style="background:#1D9E75"></div>Viena</div>
     <div class="li"><div class="ld" style="background:#7F77DD"></div>Praga</div>
@@ -95,7 +96,7 @@
     </div>
     <div class="d florencia">
       <div class="dn">21 mié</div>
-      <div class="dc">→ Florencia</div>
+      <div class="dc"><span>90min </span>→ Florencia</div>
       <div class="dd">Llegada + Duomo (ext), Piazza della Signoria, Ponte Vecchio</div>
       <div class="off">day off</div>
     </div>
@@ -118,14 +119,14 @@
     </div>
     <div class="d bolonia">
       <div class="dn">25 dom</div>
-      <div class="dc">→ Bolonia <span>→ Budapest</span></div>
+      <div class="dc"><span>40min </span>→ Bolonia<br><span>→ Budapest</span></div>
       <div class="dd">Santuario Madonna di San Luca, Piazza Maggiore</div>
     </div>
   </div>
   <div class="week">
     <div class="d budapest">
       <div class="dn">26 lun</div>
-      <div class="dc">→ Budapest</div>
+      <div class="dc"><span>13hs </span>→ Budapest</div>
       <div class="dd">Llegada + Castillo de Buda, Bastión de Pescadores</div>
       <div class="work">trabajo (4hs tarde)</div>
     </div>
@@ -149,7 +150,7 @@
     </div>
     <div class="d viena">
       <div class="dn">30 vie</div>
-      <div class="dc">→ Viena</div>
+      <div class="dc"><span>3hs </span>→ Viena</div>
       <div class="dd">Llegada + Catedral San Esteban, Café Central</div>
       <div class="work">trabajo (4hs tarde)</div>
     </div>
@@ -176,7 +177,7 @@
   <div class="week">
     <div class="d praga">
       <div class="dn">2 lun</div>
-      <div class="dc">→ Praga</div>
+      <div class="dc"><span>4hs </span>→ Praga</div>
       <div class="dd">Llegada + Ciudad Vieja, Puente de Carlos</div>
       <div class="work">trabajo (4hs tarde)</div>
     </div>
@@ -200,7 +201,7 @@
     </div>
     <div class="d cracovia">
       <div class="dn">6 vie</div>
-      <div class="dc">→ Cracovia</div>
+      <div class="dc"><span>6hs </span>→ Cracovia</div>
       <div class="dd">Llegada + Basílica Santa María, Parque Planty, Barbacana</div>
       <div class="off">day off</div>
     </div>
@@ -236,19 +237,24 @@
     </div>
     <div class="d x"></div><div class="d x"></div><div class="d x"></div><div class="d x"></div><div class="d x"></div>
   </div>
-
 </div>
-  <div class="footer">Cosas que quedan afuera:<br>
+
+  <div class="footer"><span>OTRAS ATRACCIONES:</span>
     <strong>ROMA:</strong> Galería Borghese (int). Terraza del Pincio (mirador). Museo Nazionale Romano.<br>
     <strong>FLORENCIA:</strong> Basilica di Santa Croce di Firenze. Palacio Pitti. Basílica de San Miniato al Monte.<br>
     <strong>BOLONIA:</strong> Le Due Torri. Portici di Bologna.<br>
     <strong>BUDAPEST:</strong> Puente de las Cadenas. Casa del Milenio húngaro. Baños Rudas.<br>
     <strong>VIENA:</strong> Biblioteca Nacional de Austria. Ayuntamiento. Naschmarkt (mercado).<br>
     <strong>PRAGA:</strong> Parque Letná (mirador). Museo Nacional de Praga. Žižkov (barrio). Fortaleza Vysehradd. Cabeza de Kafka.<br>
-    <strong>CRACOVIA:</strong> Museo de vitrales Witrazu. Torre de Rynek Główny (mirador)<br>
+    <strong>CRACOVIA:</strong> Museo de vitrales Witrazu. Torre de Rynek Główny (mirador).<br>
   </div>
 </div>
 
+  <div class="footer"><span>HORARIOS LOCALES DE TRABAJO:</span>
+    <strong>Roma, Florencia:</strong> 16hs-00hs<br>
+    <strong>Budapest, Viena, Praga, Cracovia:</strong> 15hs-23hs<br>
+  </div>
+</div>
 
 </body>
 </html>
