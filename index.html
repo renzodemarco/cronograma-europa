@@ -38,6 +38,8 @@
   .ld { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
   .footer { font-size: 10px; color: #666; margin-top: 10px; padding: 8px 8px; border-radius: 6px; background: #f5f5f5; border-left: 2px solid #7F77DD; line-height: 1.5; }
   .footer span { font-size: 8px; font-weight: 700; display: block; margin: 2px 0 4px;}
+  .btn { background-color:#c84b2f; color:#f7f4ef; font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 400; padding: 8px 18px; border-radius: 10px; text-decoration: none; position: fixed; bottom: 20px; border: #c84b2f 1px solid;}
+  .btn:hover { background-color:#f7f4ef; color:#c84b2f; }
 </style>
 </head>
 <body>
@@ -78,32 +80,32 @@
     <div class="d roma">
       <div class="dn">18 dom</div>
       <div class="dc">Roma</div>
-      <div class="dd">Vaticano, Castel Sant'Angelo, Trastevere</div>
+      <div class="dd">Villa Borghese, Piazza di Spagna</div>
     </div>
   </div>
   <div class="week">
     <div class="d roma">
       <div class="dn">19 lun</div>
       <div class="dc">Roma</div>
-      <div class="dd">Villa Borghese, Piazza di Spagna, Fontana di Trevi, Panteón, Piazza Navona</div>
+      <div class="dd">Basílica San Pedro, Museos Vaticanos, Castel Sant'Angelo</div>
       <div class="off">day off</div>
     </div>
     <div class="d roma">
       <div class="dn">20 mar</div>
       <div class="dc">Roma</div>
-      <div class="dd">Libre</div>
+      <div class="dd">Fontana di Trevi, Panteón, Piazza Navona</div>
       <div class="work">trabajo (8hs)</div>
     </div>
     <div class="d florencia">
       <div class="dn">21 mié</div>
       <div class="dc"><span>90min </span>→ Florencia</div>
-      <div class="dd">Llegada + Duomo (ext), Piazza della Signoria, Ponte Vecchio</div>
+      <div class="dd">Llegada + Oltrarno, Piazzale Michelangelo, Ponte Vecchio</div>
       <div class="off">day off</div>
     </div>
     <div class="d florencia">
       <div class="dn">22 jue</div>
       <div class="dc">Florencia</div>
-      <div class="dd">Galería Uffizi</div>
+      <div class="dd">Galería Uffizi, Piazza della Signoria</div>
       <div class="work">trabajo (8hs)</div>
     </div>
     <div class="d florencia">
@@ -115,7 +117,7 @@
     <div class="d florencia">
       <div class="dn">24 sáb</div>
       <div class="dc">Florencia</div>
-      <div class="dd">Academia, Oltrarno, Piazzale Michelangelo</div>
+      <div class="dd">Academia</div>
     </div>
     <div class="d bolonia">
       <div class="dn">25 dom</div>
@@ -239,8 +241,9 @@
   </div>
 </div>
 
-  <div class="footer"><span>OTRAS ATRACCIONES:</span>
-    <strong>ROMA:</strong> Galería Borghese (int). Terraza del Pincio (mirador). Museo Nazionale Romano.<br>
+  <div class="footer">
+    <span>OTRAS ATRACCIONES:</span>
+    <strong>ROMA:</strong> Terraza del Pincio (mirador). Santa Maria Maggiore. Campo de' Fiori. Museo Nazionale Romano (Palazzo Altemps). Monte Aventino. <br>
     <strong>FLORENCIA:</strong> Basilica di Santa Croce di Firenze. Palacio Pitti. Basílica de San Miniato al Monte.<br>
     <strong>BOLONIA:</strong> Le Due Torri. Portici di Bologna.<br>
     <strong>BUDAPEST:</strong> Museo Nacional Húngaro. Várkert Bazár. Isla Margarita. Casa del Milenio húngaro. Baños Rudas.<br>
@@ -250,10 +253,17 @@
   </div>
 </div>
 
-  <div class="footer"><span>HORARIOS LOCALES DE TRABAJO:</span>
+  <div class="footer">
+    <span>HORARIOS LOCALES DE TRABAJO:</span>
     <strong>Roma, Florencia:</strong> 16hs-00hs<br>
     <strong>Budapest, Viena, Praga, Cracovia:</strong> 15hs-23hs<br>
   </div>
+</div>
+
+<div style="width: 100%; padding: 26px; display: flex; flex-direction: row; justify-content: center;">
+  <a href="gastronomia.html" class="btn">
+    Ver comidas
+  </a>
 </div>
 
 </body>
