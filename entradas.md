@@ -19,7 +19,7 @@
     Brunelleschi Pass €30 (https://duomo.firenze.it/en/720/brunelleschi-pass)
 
 24/10
-    Academia €24 (https://www.galleriaaccademiafirenze.it/en/tickets/)
+    PAGO Academia - €48 (https://www.galleriaaccademiafirenze.it/en/tickets/)
     Palacio Pitti + Giardino di Boboli €25 (https://www.uffizi.it/en/pitti-palace)
 
 
@@ -58,10 +58,10 @@
 # CRACOVIA
 
 7/11 
-    Auscwhitz 150 Złoty (u$40)
+    PAGO - Auscwhitz €124,36 (https://www.civitatis.com/ar/cracovia/excursion-auschwitz-birkenau/)
 
 8/11
     Wawel €28 - €47 (https://waweltickets.com/)
 
 9/11
-    Minas de sal 159 Złoty (u$43) (https://www.wieliczka-saltmine.com/individual-tourist/useful-information/ticket-prices-and-visiting-hours)
+    PAGO - Minas de Sal u$83,15 (https://www.wieliczka-saltmine.com/individual-tourist/useful-information/ticket-prices-and-visiting-hours)
