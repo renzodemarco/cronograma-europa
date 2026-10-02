@@ -38,7 +38,7 @@
     Museo de Historia del Arte €22 (https://www.khm.at/en/visit)
 
 1/11
-    Belvedere €32 (https://www.belvedere.at/en/go/tickets)
+    Belvedere upper €23 (https://www.belvedere.at/en/go/tickets)
 
     Museo de Historia Natural €18 (https://shop.nhm.at/en/)
     
