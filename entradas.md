@@ -16,7 +16,7 @@
     PAGO. Galería Uffizi guiada €129,60 (https://www.ciaoflorence.it/es/tour-detail/7)
 
 23/10
-    Brunelleschi Pass €30 (https://duomo.firenze.it/en/720/brunelleschi-pass)
+    PAGO. Giotto Pass €40 (https://duomo.firenze.it/en/720/giotto-pass)
 
 24/10
     PAGO Academia - €48 (https://www.galleriaaccademiafirenze.it/en/tickets/)
@@ -27,7 +27,7 @@
 
 28/10
     Baños Széchenyi €40 (https://tickets.szechenyibath.hu/partner/szechenyi)
-
+    
     Parlamento interior €39
 
 
@@ -61,7 +61,9 @@
     PAGO - Auscwhitz €124,36 (https://www.civitatis.com/ar/cracovia/excursion-auschwitz-birkenau/)
 
 8/11
-    Wawel €28 - €47 (https://waweltickets.com/)
+    Castillo de Wawel (primer piso) 57 zł (https://bilety.wawel.krakow.pl/es/wawel)
+
+    Catedral de Wawel (https://www.katedra-wawelska.pl/en/)
 
 9/11
     PAGO - Minas de Sal u$83,15 (https://www.wieliczka-saltmine.com/individual-tourist/useful-information/ticket-prices-and-visiting-hours)
